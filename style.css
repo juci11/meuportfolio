@@ -1,4 +1,5 @@
 
+
 /*ESTILO GERAL*/
 *{
     margin: 0;
@@ -8,10 +9,14 @@
 }
 
 
+
+
 body{
     background-color: black;
     height: 100vh;
 }
+
+
 
 
 .interface{
@@ -22,6 +27,7 @@ body{
     display: flex;
 }
 
+
 h2.titulo{
   color: #fff;
   font-size: 38px;
@@ -29,9 +35,12 @@ h2.titulo{
 }
 
 
+
+
 h2.titulo span{
   color: red;
 }
+
 
 /* ESTILO DO CABEÇALHO*/
 header{
@@ -44,6 +53,8 @@ header > .interface{
 }
 
 
+
+
 header a{
     color:#5c5c5c;
     text-decoration: none;
@@ -51,12 +62,14 @@ header a{
     transition: .6s;
 }
 header a:hover{
-    color:#fff;
+    color:#fd0b0b;
     transform: scale(1.5);
 }
 header nav ul{
     list-style-type: none;
 }
+
+
 
 
 header nav ul li{
@@ -74,6 +87,8 @@ header nav ul li{
     transition: .6s;
 
 
+
+
 }
 .btn-contato button:hover{
     box-shadow: 0px 0px red;
@@ -81,12 +96,18 @@ header nav ul li{
 }
 
 
+
+
 /*ESTILO DO TOPO DO SITE*/
+
+
 
 
 section.topo-do-site{
     padding:40px 4%;
 }
+
+
 
 
 section.topo-do-site.flex{
@@ -96,23 +117,33 @@ section.topo-do-site.flex{
 }
 
 
+
+
 .topo-do-site h1{
     color:white;
-    font-size: 42px;
+    font-size: 48px;
     line-height: 40px;
 }
 
 
+
+
 .txt-do-site.txt-do-site h1 span{
-    color: red;
-    font-size: 60;
+    color: rgb(255, 46, 46);
+    font-size: 90%;
 }
+
+
 
 
 .topo-do-site .txt-topo-site p{
     color: whitesmoke;
-    margin: 40px 0;
+    margin: 50px 0;
 }
+
+
+
+
 
 
 
@@ -121,6 +152,8 @@ section.topo-do-site.flex{
   position: relative;
   animation: flutuar 2s ease-in-out infinite alternate ;
 }
+
+
 
 
 @keyframes flutuar{
@@ -132,35 +165,76 @@ section.topo-do-site.flex{
     }
 }
 
+
 /*ESTILO DAS ESPECIALIDADES*/
 section.especialidades{
   padding: 40px 4%;
 }
 
+
 section.especialidades .flex{
   gap: 60px;
 }
 
+
 .especialidades .especialidades-box{
-  color: #fff;
+  color: #fffefe;
   padding: 40px;
   border-radius: 20px;
   margin-top: 45px;
   transition: .2s;
 }
 
+
 .especialidades .especialidades-box:hover{
   transform: scale(1.05);
-  box-shadow: 0 0 50px #ffffff78;
+  box-shadow: 0 0 50px #ff000078;
 }
-  
-  
+ 
+ 
 .especialidades .especialidades-box i{
   font-size: 70px;
   color: red;
 }
 
+
 .especialidades .especialidades-box h3{
   font-size: 28px;
   margin: 15px 0;
 }
+
+
+
+
+/*ESTILO DO SOBRE*/
+section.sobre{
+    padding: 40px 4%;
+}
+
+
+section.sobre .flex{
+    text-align: left;
+    gap: 100px;
+}
+
+
+.sobre .txt-sobre{
+    color:#fff;
+}
+
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+}
+
+
+.sobre .txt-sobre h2 span{
+    color:#fd0b0b;
+}
+
+
+
+
+
+
+
